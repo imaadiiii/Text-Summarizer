@@ -1,0 +1,22 @@
+transformers  # Hugging Face's library for state-of-the-art NLP models like BERT, GPT, etc.
+transformers[sentencepiece]  # Additional dependencies for tokenization, especially for multilingual models
+datasets  # Hugging Face's library for accessing and processing datasets
+sacrebleu  # Library for BLEU score calculation, used in evaluating machine translation
+rouge_score  # Library for ROUGE score calculation, used in evaluating text summarization
+py7zr  # Library for handling 7z archive files
+pandas  # Data manipulation and analysis library
+nltk  # Natural Language Toolkit, a suite of libraries and programs for NLP
+tqdm  # Progress bar library
+PyYAML  # YAML parsing and emitting library
+matplotlib  # Plotting library for data visualization
+torch  # PyTorch, a deep learning framework
+notebook  # Jupyter notebook support
+boto3  # Amazon Web Services (AWS) SDK for Python, used to interact with AWS services
+mypy-boto3-s3  # Type annotations for boto3 S3 client, helps in static type checking
+python-box==6.0.2  # A Python dictionary with dot notation access
+ensure==1.0.2  # Utility for ensuring types in Python
+fastapi==0.78.0  # Web framework for building APIs with Python 3.6+ based on standard Python type hints
+uvicorn==0.18.3  # ASGI server for serving FastAPI applications
+Jinja2==3.1.2  # Templating engine for Python, used in web frameworks like Flask and FastAPI
+accelerate -U  # Utility from Hugging Face to easily accelerate PyTorch training and inference
+-e .  # Install the package in the current directory in editable mode, useful for development
