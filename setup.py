@@ -5,10 +5,10 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 __version__ = '0.1.0'
 
-REPO_NAME = 'Text-Summarizer-Project'
-AUTHOR_USER_NAME = "V27r"
+REPO_NAME = 'Text-Summarizer'
+AUTHOR_USER_NAME = "imaadiiii"
 SRC_REPO = "textSummarizer"
-AUTHOR_EMAIL = "mahaveerr2703@gmail.com"
+AUTHOR_EMAIL = "adityaraj006005@gmail.com"
 
 setuptools.setup(
     name=SRC_REPO,
